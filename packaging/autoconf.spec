@@ -8,7 +8,6 @@ Group:          Development/Tools
 Source:         http://ftp.gnu.org/gnu/autoconf/autoconf-%{version}.tar.bz2
 Source1:        filter-provides-automake.sh
 Source2:        filter-requires-automake.sh
-Source1001: packaging/autoconf.manifest 
 BuildRequires:  m4 >= 1.4.7
 Requires:       coreutils,
 Requires:       grep
@@ -42,7 +41,6 @@ chmod +x %{SOURCE1}
 chmod +x %{SOURCE2}
 
 %build
-cp %{SOURCE1001} .
 # use ./configure here to avoid copying config.{sub,guess} with those from the
 # rpm package
 ./configure --prefix=%{_prefix} --mandir=%{_mandir} --infodir=%{_infodir} \
@@ -62,7 +60,6 @@ rm -rf %{buildroot}/%{_infodir}
 
 
 %files
-%manifest autoconf.manifest
 %defattr(-,root,root,-)
 %{_bindir}/*
 # don't include standards.info, because it comes from binutils...
