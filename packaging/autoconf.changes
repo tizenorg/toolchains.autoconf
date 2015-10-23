@@ -1,3 +1,32 @@
+* Mon Sep 16 2013 UkJung Kim <ujkim@samsung.com> - submit/trunk/20121019.060951 
+- PROJECT: external/autoconf
+- COMMIT_ID: 3fe09f566c00e46634d70a9cf03d839ee3a8667c
+- PATCHSET_REVISION: 3fe09f566c00e46634d70a9cf03d839ee3a8667c
+- CHANGE_OWNER: \"UkJung Kim\" <ujkim@samsung.com>
+- PATCHSET_UPLOADER: \"UkJung Kim\" <ujkim@samsung.com>
+- CHANGE_URL: http://slp-info.sec.samsung.net/gerrit/103257
+- PATCHSET_REVISION: 3fe09f566c00e46634d70a9cf03d839ee3a8667c
+- TAGGER: UkJung Kim <ujkim@samsung.com>
+- Gerrit patchset approval info:
+- UkJung Kim <ujkim@samsung.com> Verified : 1
+- Newton Lee <newton.lee@samsung.com> Code Review : 2
+- CHANGE_SUBJECT: Initial commit
+
+- [Version] 2.68
+- [Project] GT-I8800
+- [Title] Initial commit
+- [BinType] PDA
+- [Customer] Open
+- [Issue#] N/A
+- [Problem] N/A
+- [Cause] N/A
+- [Solution]
+- [Team] SCM
+- [Developer] UkJung Kim <ujkim@samsung.com>
+- [Request] N/A
+- [Horizontal expansion] N/A
+- [SCMRequest] N/A
+
 * Fri Dec 03 2010 Austin Zhang <austin.zhang@intel.com> 2.68
 - Update to 2.68 for fixing BMC#10903
 

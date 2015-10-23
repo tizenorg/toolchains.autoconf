@@ -1,6 +1,7 @@
 Name:           autoconf
 Version:        2.68
 Release:        1
+VCS:            external/autoconf#submit/trunk/20121019.060951-0-g3fe09f566c00e46634d70a9cf03d839ee3a8667c
 License:        GPLv2+ and GFDL
 Summary:        A GNU tool for automatically configuring source code
 Url:            http://www.gnu.org/software/autoconf/
